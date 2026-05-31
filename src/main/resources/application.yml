@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: spring-ai-web-summarizer
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      model: gpt-3.5-turbo
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+logging:
+  level:
+    root: INFO
+    com.example.summarizer: DEBUG
+    org.springframework.ai: INFO
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+
+# Web Extractor Configuration
+web:
+  extractor:
+    timeout: 10000  # 10 seconds
+    max-content-length: 5000  # 5000 characters

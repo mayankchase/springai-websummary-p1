@@ -1,0 +1,79 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.mvn/
+!.mvn/wrapper/
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+gradle-app.setting
+
+# Spring Boot
+bin/
+.springBeans
+.sts4-cache/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+out/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Logs
+logs/
+*.log
+log4j.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.AppleDouble
+.LSOverride
+
+# Node (if needed)
+node_modules/
+npm-debug.log
+
+# Others
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.classpath
+.project
+.settings/
